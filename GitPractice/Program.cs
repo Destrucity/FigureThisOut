@@ -1,7 +1,7 @@
 ﻿
-// This is the original file.
+// This is the test branch 1.
 
-Console.WriteLine("Master Branch");
+Console.WriteLine("Test Branch");
 
 NumMonster cookie = new NumMonster();
 
@@ -21,4 +21,9 @@ class NumMonster
         num = Number.RandomNumber();
         Console.WriteLine(num);
     }
+}
+
+class TestBranchClass
+{ 
+    // Test Class created
 }
